@@ -8,7 +8,7 @@
 이 플러그인은 플러그인 상에서 어떤 값을 저장하거나 불러오고 싶거나,\
 외부에서 쉽게 변경 가능한 상수값(하드코딩 방지)을 이용하고 싶을 때 사용하면 좋습니다.
 
-#사용 방법
+## 사용 방법
 먼저, ```ConfigManager.jar```를 프로젝트에 연결해주세요.
 
 ```plugin.yml```에 다음 종속성을 추가해주세요.\
@@ -44,7 +44,7 @@ config.setDesc("ticks", "서버가 몇 틱 동안 켜져있었는지를 나타�
 config.setDesc("ticks", "서버가 몇 틱 동안 켜져있었는지를 나타냅니다."); //기본값 설정 X
 ```
 
-#예제
+## 예제
 ```java
 package aren227.configmanagertest;
 
@@ -87,10 +87,10 @@ public final class ConfigManagerTest extends JavaPlugin implements Listener {
 }
 ```
 
-#Jar 다운로드
+## Jar 다운로드
 ```out/artifacts/ConfigManager/ConfigManager.jar```
 
-#추가할 기능
+## 추가할 기능
 - 웹 페이지 또는 인게임 다이얼로그로 값을 변경할 수 있도록 합니다.
 - 값에 대해 외부에서 변경할 수 없도록 하는 옵션을 추가합니다.
 - 등등..
