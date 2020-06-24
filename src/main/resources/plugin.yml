@@ -1,6 +1,6 @@
 name: ConfigManager
 version: ${project.version}
 main: aren227.configmanager.ConfigManager
-api-version: 1.13
+api-version: 1.15
 authors: [Aren]
 description: 플러그인의 설정값을 관리합니다.
